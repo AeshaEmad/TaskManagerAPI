@@ -1,6 +1,14 @@
 # Task Manager API
 
-A production-ready **RESTful API** for managing personal tasks, built with **ASP.NET Core**, **Entity Framework Core**, and **SQL Server**. Features JWT-based authentication, full CRUD operations, and interactive Swagger documentation.
+A well-structured **RESTful API** for managing personal tasks, built with **ASP.NET Core**, **Entity Framework Core**, and **SQL Server**. Features JWT-based authentication, full CRUD operations, and interactive Swagger documentation.
+
+---
+
+## Skills Demonstrated
+
+> This project was built to showcase hands-on experience with a modern .NET backend stack.
+
+`ASP.NET Core Web API` • `C#` • `Entity Framework Core` • `SQL Server` • `JWT Authentication` • `REST APIs` • `Repository Pattern` • `Service Layer` • `BCrypt` • `Swagger / OpenAPI`
 
 ---
 
@@ -91,7 +99,7 @@ cd TaskManagerAPI
 }
 ```
 
-> **Security Note:** Replace `SecretKey` with a strong random key in production. Use environment variables or Azure Key Vault — never commit secrets.
+> **Security Note:** The `appsettings.json` in this repo uses placeholder values only — no real secrets are committed. Copy `appsettings.Example.json`, rename it to `appsettings.json`, and fill in your own values locally.
 
 ### 3. Run the Application
 

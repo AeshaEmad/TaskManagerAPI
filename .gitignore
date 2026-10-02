@@ -33,9 +33,7 @@ logs/
 Thumbs.db
 
 # ─── SECURITY: Never commit secrets ───────────────────────────────────────────
-# appsettings.json contains connection strings & JWT secret
-# Use appsettings.Example.json as a template instead
+# appsettings.json stays LOCAL ONLY — copy from appsettings.Example.json and fill in real values.
+# appsettings.Example.json is the safe template committed to the repo.
+appsettings.json
 appsettings.Development.json
-
-# Uncomment the line below if you want to also ignore the main appsettings
-# appsettings.json
